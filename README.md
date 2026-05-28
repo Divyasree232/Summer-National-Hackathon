@@ -1,20 +1,74 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Synthetic Reality Index
 
-# Run and deploy your AI Studio app
+Synthetic Reality Index is an AI-powered synthetic activity detection platform that identifies whether social media activity is authentic or artificially manipulated. The system analyzes online behavior patterns across social platforms to detect bots, coordinated inauthentic activity, fake engagement, and artificially amplified trends.
 
-This contains everything you need to run your app locally.
+The platform examines:
 
-View your app in AI Studio: https://ai.studio/apps/43a72f50-9717-4294-9610-4f2febf9510e
+* Posts and captions
+* Comments and replies
+* Likes and reactions
+* Shares and reposts
+* Account behavior
+* Engagement timing
+* Posting frequency
+* Trend growth patterns
+* Follower activity
 
-## Run Locally
+Using behavioral analysis, pattern recognition, and AI-driven detection logic, Synthetic Reality Index identifies suspicious online activity such as:
 
-**Prerequisites:**  Node.js
+* Bot networks
+* Coordinated manipulation campaigns
+* Fake engagement
+* Artificial trend boosting
+* AI-generated interaction patterns
+* Synchronized repost behavior
 
+The system generates four key trust metrics:
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+| Metric                   | Description                                           |
+| ------------------------ | ----------------------------------------------------- |
+| Synthetic Activity Score | Measures the likelihood of artificial amplification   |
+| Human Authenticity Ratio | Estimates how much engagement appears genuinely human |
+| Bot Detection            | Identifies suspicious automated activity              |
+| Trend Legitimacy Score   | Determines whether a trend is organically popular     |
+
+Synthetic Reality Index processes data through multiple stages including:
+
+1. Data Collection
+2. Data Processing
+3. Behavioral Signal Extraction
+4. Pattern Recognition
+5. AI-Based Detection
+6. Authenticity Scoring
+7. Visualization Dashboard Generation
+
+The platform provides an interactive analytics dashboard that displays:
+
+* Authenticity scores
+* Detection alerts
+* Suspicious activity indicators
+* Trust metrics
+* Engagement analysis
+* Real-time synthetic activity insights
+
+Supported platforms include:
+
+* Twitter/X
+* Facebook
+* Instagram
+* TikTok
+* YouTube
+* LinkedIn
+* Reddit
+
+The project is developed using:
+
+* HTML
+* CSS
+* TypeScript
+* Node.js
+* Vite
+
+Synthetic Reality Index is designed for journalists, researchers, brands, investigators, and social media users who want to verify whether online trends and engagement are genuinely popular or artificially manipulated.
+
+The main objective of the project is to improve digital trust by exposing synthetic online behavior and helping users distinguish authentic engagement from manipulated activity.
