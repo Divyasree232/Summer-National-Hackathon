@@ -1,0 +1,6 @@
+{
+  "name": "AuthentiCheck",
+  "description": "Advanced AI-powered system that analyzes social media patterns, engagement metrics, and account behaviors to distinguish between authentic human activity and synthetic/bot activity.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
